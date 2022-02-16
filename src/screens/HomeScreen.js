@@ -40,6 +40,11 @@ const HomeScreen = ({navigation}) => {
       title="Go To Square Screen Component"
       onPress={()=>navigation.navigate('Square')}
       />
+      <View style={styles.space}></View>
+      <Button 
+      title="Go To Text Screen"
+      onPress={()=>{navigation.navigate('Text')}}
+      />
     </View>
   );
 };
